@@ -9,9 +9,9 @@ comments: true
 
 ## Contact
 
-${\color{Red} QQ } $ [1274727127](tencent://message/?uin=1274727127)
+- QQ：[1274727127](tencent://message/?uin=1274727127)
 
-${\color{Green} mail }$ [1274727127@qq.com](mailto:1274727127@qq.com)
+- mail：[1274727127@qq.com](mailto:1274727127@qq.com)
 
 >永远都心怀期待
 >
