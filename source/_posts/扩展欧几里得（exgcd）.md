@@ -3,9 +3,10 @@ title: 扩展欧几里得（exgcd）
 date: 2021-10-02 13:33:00
 updated: 2021-10-02 13:33:00
 tags:
+  - 数学
+  - 方程
+categories:
   - 算法
-  - 数论
-categories: []
 comments: true
 ---
 ## exgcd
