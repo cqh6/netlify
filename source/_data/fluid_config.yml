@@ -1,33 +1,33 @@
 navbar:
-  blog_title: "演示站点"
+  blog_title: cqh's blog
   ground_glass:
     enable: true
 index:
-  banner_img: /images/uploads/background.webp
+  banner_img: /images/uploads/5.jpg
   banner_img_height: 100
   slogan:
-    text: "这是一个演示博客,可以登陆后台实际测试效果"
+    text: Life is short. Play more.
 post:
-  banner_img: /images/uploads/mmexport1602581319886.webp
+  banner_img: /images/uploads/7.jpg
   banner_img_height: 70
-  default_index_img: /images/uploads/wallhaven-g8wvm7.webp
+  default_index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
 archive:
-  banner_img: /images/uploads/1616421595370-wallhaven-q6ov7d.jpg
+  banner_img: /images/uploads/1.jpg
   banner_img_height: 80
 category:
-  banner_img: /images/uploads/1616421818281-wallhaven-zm93dj.jpg
+  banner_img: /images/uploads/4.jpg
   banner_img_height: 80
 tag:
-  banner_img: /images/uploads/1616421669417-wallhaven-1kkm2g.jpg
+  banner_img: /images/uploads/4.jpg
   banner_img_height: 80
 about:
-  banner_img: /images/uploads/wallhaven-pkkr2.webp
+  banner_img: /images/uploads/6.jpg
   banner_img_height: 80
-  avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  avatar: /images/uploads/touxiang.jpg
+  name: cqh's blog
+  intro: Life is short. Play more
 links:
-  banner_img: /images/uploads/1616421416500-wallhaven-rddv31.jpg
+  banner_img: /images/uploads/3.jpg
   banner_img_height: 80
   items:
     - title: Fluid Repo
