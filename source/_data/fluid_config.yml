@@ -30,11 +30,39 @@ links:
   banner_img: /images/uploads/3.jpg
   banner_img_height: 80
   items:
-    - title: Fluid Repo
-      intro: 主题 GitHub 仓库
-      link: https://github.com/fluid-dev/hexo-theme-fluid
-      avatar: /img/favicon.png
-    - title: 暮雨千泷
-      intro: 青天白日梦神仙
-      link: https://www.myql.xyz
-      avatar: https://cdn.jsdelivr.net/gh/leicancun/JSCDN@master/images/circle-cropped.webp
+    - title: 白衣博客
+      intro: 楼空人不归，云白去时衣。
+      link: https://baiyinet.cn
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=37502105&spec=640
+    - title: 见字如晤
+      intro: 从前车马很慢，书信很远，一生只够爱一个人
+      link: https://www.jianziruw.com
+      avatar: https://www.jianziruw.com/usr/uploads/logo.jpg
+    - title: LCZBlog
+      intro: 欲買桂花同載酒，終不似，少年遊。
+      link: https://licaoz.com
+      avatar: https://cdn.jsdelivr.net/gh/licaoz/static/pubicon.png
+    - title: Legendgod's Blog
+      link: https://legendgod.ml/
+      intro: 终幕
+      avatar: https://q2.qlogo.cn/g?b=qq&nk=3456261198&s=100
+    - title: Macesuted's Blog
+      link: https://q2.qlogo.cn/g?b=qq&nk=1912192337&s=100
+      intro: https://macesuted.moe/
+      avatar: https://q2.qlogo.cn/g?b=qq&nk=1912192337&s=100
+    - title: Wer Blog
+      link: https://oyyy.cc
+      avatar: https://s2.loli.net/2021/12/31/msfnS8iwkglDNAu.jpg
+      intro: 是Yy鸭~
+    - title: 小孙在摸鱼
+      link: https://blog.ivisun.cn/
+      intro: 记录小孙的摸鱼经历
+      avatar: https://z3.ax1x.com/2021/08/24/hFbKtf.jpg
+    - title: 小阳博客
+      link: https://www.page2.cn/
+      intro: 热爱科技，热爱生活
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=3197005320&s=160
+    - title: Ytterbiumer
+      intro: 不怕人矮，就怕志短。小小身高，大大智慧！
+      link: https://ybwa.github.io/
+      avatar: https://q2.qlogo.cn/g?b=qq&nk=3391935359&s=100
