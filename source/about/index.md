@@ -3,6 +3,7 @@ title: 关于
 layout: about
 comments: true
 ---
+![](source/images/uploads/about.jpg)
 从 Typecho 换成了 Hexo。
 
 之前的博客会慢慢的搬过来，友链也是，过几天就会全部搬过来了！
