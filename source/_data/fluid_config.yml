@@ -10,7 +10,7 @@ index:
 post:
   banner_img: /images/uploads/7.jpg
   banner_img_height: 70
-  default_index_img: " "
+  default_index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
 archive:
   banner_img: /images/uploads/1.jpg
   banner_img_height: 80
