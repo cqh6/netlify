@@ -878,7 +878,7 @@ about:
   icons:
     - { class: "iconfont icon-qq-fill", link: "tencent://message/?uin=1274727127", tip: "QQ" }
     - { class: "iconfont icon-mail", link: "mailto:1274727127@qq.com", tip: "邮箱" }
-    - { class: "iconfont icon-codeforces", link: "http://codeforces.com/profile/cqh91", tip: "Codeforces" }
+    - { class: "iconfont icon-codeforces", link: "https://codeforces.com/profile/cqh91", tip: "Codeforces" }
 
 
 #---------------------------
