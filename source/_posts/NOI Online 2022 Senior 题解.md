@@ -404,9 +404,9 @@ signed main() {
 $$
 \begin{equation}
 \begin{aligned}
-ANS&=\max(a,b,c,d)+\min(a,b,c,d)\\
-&=\max(a,b,c)+\max(a,b,d)+\max(a,c,d)+\max(b,c,d)\\
-&-\max(a,b)-\max(a,c)-\max(a,d)-\max(b,c)-\max(b,d)-\max(c,d)\\
+ANS&=\max(a,b,c,d)+\min(a,b,c,d)\\\
+&=\max(a,b,c)+\max(a,b,d)+\max(a,c,d)+\max(b,c,d)\\\
+&-\max(a,b)-\max(a,c)-\max(a,d)-\max(b,c)-\max(b,d)-\max(c,d)\\\
 &+a+b+c+d
 \end{aligned}
 \end{equation}
