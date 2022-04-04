@@ -302,7 +302,7 @@ int main(){
 
 我们需要求出 $a_{k,i}$ 会对答案贡献多少次。
 
-我们假设 $\{A,B,C,D\}=\{1,2,3,4\}$
+我们假设 $\\{A,B,C,D\\}=\\{1,2,3,4\\}$
 
 $a_{A,i}$ 对答案做出贡献需要满足： $a_{A,i}+a_{A,j}>a_{B,i}+a_{B,j}$，则 $a_{A,i}-a_{B,i}>a_{B,j}-a_{A,j}$
 
@@ -404,9 +404,9 @@ signed main() {
 $$
 \begin{equation}
 \begin{aligned}
-ANS&=\max(a,b,c,d)+\min(a,b,c,d)\\\
-&=\max(a,b,c)+\max(a,b,d)+\max(a,c,d)+\max(b,c,d)\\\
-&-\max(a,b)-\max(a,c)-\max(a,d)-\max(b,c)-\max(b,d)-\max(c,d)\\\
+ANS&=\max(a,b,c,d)+\min(a,b,c,d)\\
+&=\max(a,b,c)+\max(a,b,d)+\max(a,c,d)+\max(b,c,d)\\
+&-\max(a,b)-\max(a,c)-\max(a,d)-\max(b,c)-\max(b,d)-\max(c,d)\\
 &+a+b+c+d
 \end{aligned}
 \end{equation}
