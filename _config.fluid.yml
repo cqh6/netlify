@@ -996,7 +996,7 @@ static_prefix:
 
   mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/
 
-  katex: https://cdn.jsdelivr.net/npm/katex@0/dist/
+  katex: https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
