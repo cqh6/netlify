@@ -39,7 +39,7 @@ comments: true
 
 代码：
 
-```c++
+```cpp
 void exgcd(int a, int b, int &x, int &y) {
 	if (b==0) {x=1; y=0; return;}
 	exgcd(b, a%b, x, y);
@@ -73,7 +73,7 @@ void exgcd(int a, int b, int &x, int &y) {
 
 代码
 
-```c++
+```cpp
 #include <cstdio>
 #include <cctype>
 #define int long long
