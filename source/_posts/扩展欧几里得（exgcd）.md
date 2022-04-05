@@ -25,7 +25,7 @@ comments: true
 
 然后我们考虑每次求出 $(b,a\%b)$ 的解，如何求出 $a,b$ 的解。
 
-原方程：$bx'+(a\%b)y'=1$
+原方程：$bx'+(a\mod b)y'=1$
 
 把取模转化成除法的形式 ，$bx'+(a-\lfloor\frac{a}{b}\rfloor b)y'=1$
 
