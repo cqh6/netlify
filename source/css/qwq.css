@@ -1,0 +1,7 @@
+body {
+    background-image: url('/images/uploads/snow.gif');
+}
+
+[data-user-color-scheme='dark'] body {
+    --body-bg-color: #607D8B;
+}
