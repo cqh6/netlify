@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=528321
 title: HDU - 7086 Pty plays game 题解
 date: 2021-11-09 10:58:00
 updated: 2021-11-09 10:58:00
