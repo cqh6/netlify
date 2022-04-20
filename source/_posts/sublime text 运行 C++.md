@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=482172
 title: sublime text 运行 C++
 date: 2022-02-13 18:16:00
 updated: 2022-02-13 18:16:00
