@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=587192
 title: LuoguP8250 交友问题 题解
 date: 2022-03-25 19:02:00
 updated: 2022-03-25 19:02:00
