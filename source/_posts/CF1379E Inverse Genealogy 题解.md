@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=423621
 title: CF1379E Inverse Genealogy 题解
 date: 2021-10-30 09:22:00
 updated: 2021-10-30 09:22:00
