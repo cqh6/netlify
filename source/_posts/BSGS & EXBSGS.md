@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=542712
 title: BSGS & EXBSGS
 date: 2021-11-04 14:26:00
 updated: 2021-11-04 14:26:00
