@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=958120
 title: C++ 矩阵乘法不同枚举顺序速度测试
 date: 2021-11-19 09:29:00
 updated: 2021-11-19 09:29:00
