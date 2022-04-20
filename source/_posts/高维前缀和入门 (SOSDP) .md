@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=683841
 title: 高维前缀和入门 (SOSDP) 
 date: 2022-01-22 09:05:00
 updated: 2022-01-22 09:05:00
