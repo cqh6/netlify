@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=432712
 title: KMP 入门
 date: 2021-10-20 18:21:00
 updated: 2021-10-20 18:21:00
