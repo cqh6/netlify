@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=272124
 title: C++ 鼠标连点器
 date: 2022-03-26 13:38:00
 updated: 2022-03-26 13:38:00
