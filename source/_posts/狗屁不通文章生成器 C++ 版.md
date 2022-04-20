@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=423771
 title: 狗屁不通文章生成器 C++ 版
 date: 2022-02-16 16:27:00
 updated: 2022-02-16 16:27:00
