@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=353463
 title: 扩展欧几里得（exgcd）
 date: 2021-10-02 13:33:00
 updated: 2021-10-02 13:33:00
