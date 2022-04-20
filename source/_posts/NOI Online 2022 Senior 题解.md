@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=358821
 title: NOI Online 2022 Senior 题解
 date: 2022-03-26 18:23:00
 updated: 2022-03-26 18:23:00
