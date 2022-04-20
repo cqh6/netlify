@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=377221
 title: 【转】pvz 属性说明
 date: 2021-11-11 21:12:00
 updated: 2021-11-11 21:12:00
