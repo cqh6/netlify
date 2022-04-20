@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=842124
 title: CF1578L Labyrinth 题解
 date: 2021-10-28 21:11:00
 updated: 2021-10-28 21:11:00
