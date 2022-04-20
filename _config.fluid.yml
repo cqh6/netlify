@@ -944,7 +944,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr>友链按名称字典排列，无先后之分awa'
+    content: '<hr>友链按名称字典序排列，无先后之分awa<hr>'
 
   # 评论插件
   # Comment plugin
