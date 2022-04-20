@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=582812
 title: C++ 骂人刷屏神器分享
 date: 2022-02-16 20:23:00
 updated: 2022-02-16 20:23:00
