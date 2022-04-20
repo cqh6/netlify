@@ -1,5 +1,4 @@
 ---
-index_img: https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&seed=913312
 title: Acwing 193. 算乘方的牛 题解
 date: 2022-04-04 18:58:38
 updated: 2022-04-04 18:58:38
