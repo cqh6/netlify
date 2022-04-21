@@ -12,11 +12,5 @@ comments: true
 ## 中国剩余定理
 
 $$
-\left\{\begin{array}{l}
-x \equiv a_{1}\left(\bmod m_{1}\right) \\\\
-x \equiv a_{2}\left(\bmod m_{2}\right) \\\\
-x \equiv a_{3}\left(\bmod m_{3}\right) \\\\
-\cdots \\\\
-x \equiv a_{k}\left(\bmod m_{k}\right)
-\end{array}\right.
+\\left\\{\\begin{array}{l}x \\equiv a_{1}\\left(\\bmod m_{1}\\right) \\\\x \\equiv a_{2}\\left(\\bmod m_{2}\\right) \\\\x \\equiv a_{3}\\left(\\bmod m_{3}\\right) \\\\\\cdots \\\\x \\equiv a_{k}\\left(\\bmod m_{k}\\right)\\end{array}\\right.
 $$
