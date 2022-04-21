@@ -148,3 +148,46 @@ signed main() {
 }
 ```
 
+## 奇技淫巧
+
+大数翻倍法
+
+要求同时满足 $x\equiv a_1\pmod {m_1}$，$x\equiv a_2\pmod {m_2}$
+
+我们找到 $m_1,m_2$ 中较大的一个，并把对应的 $a$ 不断加上这个 $m$，直到满足另一个方程，这时候的新 $m$ 即为 $\text{lcm}(m_1,m_2)$。
+
+由于数据范围的限制，合并之后的模数为最小公倍数，所以做的总次数不会很多。
+
+CRT 模板题那题可以拿到满分，EXCRT 模板题只能拿到 $77$ 分。
+
+牛马代码：
+
+```cpp
+#include <cstdio>
+#include <cctype>
+#include <algorithm>
+#define int __int128
+
+using namespace std;
+
+int read() {
+	int x=0, f=0; char c=getchar();
+	while (!isdigit(c)) f|=c=='-', c=getchar();
+	while (isdigit(c)) x=(x<<3)+(x<<1)+(c^48), c=getchar();
+	return f ? -x : x;
+}
+
+int n, M, A;
+
+signed main() {
+	n=read(), M=read(), A=read();
+	for (int i=2; i<=n; i++) {
+		int m=read(), a=read();
+		if (m>M) swap(m, M), swap(a, A);
+		while (A%m!=a) A+=M;
+		M=M/__gcd(M, m)*m;
+	}
+	printf("%lld\n", (long long)A);
+	return 0;
+}
+```
