@@ -910,7 +910,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  # banner_img: /img/default.png
+  # banner_img: /images/uploads/2.jpg
   # banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
