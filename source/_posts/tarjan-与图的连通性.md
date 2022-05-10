@@ -1,5 +1,5 @@
 ---
-index_img: https://pic.imgdb.cn/item/624cfdab239250f7c5f6f683.jpg
+index_img: ""
 title: Tarjan 与图的连通性
 date: 2022-05-09 21:29:49
 updated: 2022-05-09 21:29:49
