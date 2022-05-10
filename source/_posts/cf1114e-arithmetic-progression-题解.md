@@ -5,6 +5,7 @@ updated: 2022-05-11 07:49:33
 tags:
   - 随机
   - gcd
+  - 交互
 categories:
   - 题解
 comments: true
