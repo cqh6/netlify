@@ -48,7 +48,7 @@ printf("%d\n", __builtin_clz(12));
 
 求一个 $32$ 位整型以 $2$ 为底取整后的对数：`31-__builtin_clz(n)`
 
-求一个 $64$ 位整型以 $2$ 为底取整后的对数：`63-__builtin_clz(n)`
+求一个 $64$ 位整型以 $2$ 为底取整后的对数：`63-__builtin_clzll(n)`
 
 **⑥** `int __builtin_ctz(unsigned int n)` 返回 $x$ 二进制中末尾连续 $0$ 的个数（$x\ne 0$）
 
