@@ -723,7 +723,7 @@ valine:
   appId: 0nqEAxgb5PI4aYK9BIsdm8XJ-gzGzoHsz
   appKey: DQhTPyOuRif23vVWqevQJX1x
   path: window.location.pathname
-  placeholder: ''
+  placeholder: 'Just go go.'
   avatar: 'wavatar'
   meta: ['nick', 'mail', 'link']
   requiredFields: ['nick']
