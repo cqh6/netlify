@@ -1,7 +1,7 @@
 ---
 title: 关于 jsdelivr CDN 被污染的解决方案
 date: 2022-05-20 20:45:40
-updated: 2022-05-20 20:45:40
+updated: 2022-05-29 15:49:16
 categories:
   - 其他
 comments: true
@@ -17,6 +17,7 @@ comments: true
 - 七牛静态库：`staticfile.org`
 - bootcdn：`bootcdn.cn`
 - unpkg：`unpkg.com`
+- zhimg: `unpkg.zhimg.com`
 
 这种方法一般比较稳定，速度比较快，但切换起来比较麻烦，而且有的静态库的内容不够完整，更新不够快。
 
@@ -33,3 +34,5 @@ comments: true
 只需把网址前的 `cdn` 修改成对应的即可。
 
 这种方法一时比较方便，但可能不长久也会被污染，且用且珍惜吧。
+
+2022-5-29:好像这玩意在一些地区一些网络下也被污染了qwq
