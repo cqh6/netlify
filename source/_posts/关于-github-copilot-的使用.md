@@ -20,7 +20,7 @@ GitHub Copilot 会根据你的上下文、注释、本地代码和 github 等上
 
 [申请界面](https://copilot.github.com/)
 
-点击以上链接申请后等一段时间，差不多几个月的样子，然后下载 [vs code](https://code.visualstudio.com/)，在插件中搜索 `GitHub Copilot` 并安装。
+点击以上链接申请后等一段时间，差不多几个月的样子（特别久qwq），然后下载 [vs code](https://code.visualstudio.com/)，在插件中搜索 `GitHub Copilot` 并安装。
 
 ![](/images/uploads/githubcopilot-1.png)
 
@@ -52,6 +52,6 @@ GitHub Copilot 会根据你的上下文、注释、本地代码和 github 等上
 
 ## Postscript
 
-AI 写~~贺~~代码虽好，但不要忘记自己思考，它是用来帮我们完成一些基础的实现，但真正的理解还是得考自己。
+AI 写~~贺~~代码虽好，但不要忘记自己思考，它是用来帮我们完成一些基础的实现，但真正的理解还是得考自己，一定要理解才能贺。
 
 ~~话说用这玩意贺代码是真的方便，把题解代码放到本地，你还没开始写它就已经根据你的码风写完了~~
