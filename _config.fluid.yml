@@ -1015,44 +1015,44 @@ static_prefix:
   # 
   # hint: https://cdn.jsdelivr.net/npm/hint.css@2/
 
-  anchor: https://unpkg.com/anchor-js@4/
+  anchor: https://fastly.jsdelivr.net/npm/anchor-js@4/
   
-  github_markdown: https://unpkg.com/github-markdown-css@4/
+  github_markdown: https://fastly.jsdelivr.net/npm/github-markdown-css@4/
   
-  jquery: https://unpkg.com/jquery@3/dist/
+  jquery: https://fastly.jsdelivr.net/npm/jquery@3/dist/
   
-  bootstrap: https://unpkg.com/bootstrap@4/dist/
+  bootstrap: https://fastly.jsdelivr.net/npm/bootstrap@4/dist/
   
-  highlightjs: https://unpkg.com/highlight.js@10/
+  highlightjs: https://fastly.jsdelivr.net/npm/highlight.js@10/
   
-  prismjs: https://unpkg.com/prismjs@1/
+  prismjs: https://fastly.jsdelivr.net/npm/prismjs@1/
   
-  tocbot: https://unpkg.com/tocbot@4/dist/
+  tocbot: https://fastly.jsdelivr.net/npm/tocbot@4/dist/
   
-  typed: https://unpkg.com/typed.js@2/lib/
+  typed: https://fastly.jsdelivr.net/npm/typed.js@2/lib/
   
   fancybox: https://unpkg.com/@fancyapps/fancybox@3/dist/
   
-  nprogress: https://unpkg.com/nprogress@0/
+  nprogress: https://fastly.jsdelivr.net/npm/nprogress@0/
   
-  mathjax: https://unpkg.com/mathjax@3/es5/
+  mathjax: https://fastly.jsdelivr.net/npm/mathjax@3/es5/
   
-  katex: https://unpkg.com/katex@0.15.3/dist/contrib/
+  katex: https://fastly.jsdelivr.net/npm/katex@0.15.3/dist/contrib/
   
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
   
-  clipboard: https://unpkg.com/clipboard@2/dist/
+  clipboard: https://fastly.jsdelivr.net/npm/clipboard@2/dist/
   
-  mermaid: https://unpkg.com/mermaid@8/dist/
+  mermaid: https://fastly.jsdelivr.net/npm/mermaid@8/dist/
   
-  valine: https://unpkg.com/valine@1/dist/
+  valine: https://fastly.jsdelivr.net/npm/valine@1/dist/
   
   waline: https://unpkg.com/@waline/client@1/dist/
   
-  gitalk: https://unpkg.com/gitalk@1/dist/
+  gitalk: https://fastly.jsdelivr.net/npm/gitalk@1/dist/
   
-  disqusjs: https://unpkg.com/disqusjs@1/dist/
+  disqusjs: https://fastly.jsdelivr.net/npm/disqusjs@1/dist/
   
-  twikoo: https://unpkg.com/twikoo@1/dist/
+  twikoo: https://fastly.jsdelivr.net/npm/twikoo@1/dist/
   
-  hint: https://unpkg.com/hint.css@2/
+  hint: https://fastly.jsdelivr.net/npm/hint.css@2/
