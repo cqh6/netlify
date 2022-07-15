@@ -1015,44 +1015,44 @@ static_prefix:
   # 
   # hint: https://cdn.jsdelivr.net/npm/hint.css@2/
 
-  anchor: https://jsd.compc.cc/npm/anchor-js@4/
+  anchor: https://unpkg.com/anchor-js@4/
   
-  github_markdown: https://jsd.compc.cc/npm/github-markdown-css@4/
+  github_markdown: https://unpkg.com/github-markdown-css@4/
   
-  jquery: https://jsd.compc.cc/npm/jquery@3/dist/
+  jquery: https://unpkg.com/jquery@3/dist/
   
-  bootstrap: https://jsd.compc.cc/npm/bootstrap@4/dist/
+  bootstrap: https://unpkg.com/bootstrap@4/dist/
   
-  highlightjs: https://jsd.compc.cc/npm/highlight.js@10/
+  highlightjs: https://unpkg.com/highlight.js@10/
   
-  prismjs: https://jsd.compc.cc/npm/prismjs@1/
+  prismjs: https://unpkg.com/prismjs@1/
   
-  tocbot: https://jsd.compc.cc/npm/tocbot@4/dist/
+  tocbot: https://unpkg.com/tocbot@4/dist/
   
-  typed: https://jsd.compc.cc/npm/typed.js@2/lib/
+  typed: https://unpkg.com/typed.js@2/lib/
   
-  fancybox: https://jsd.compc.cc/npm/@fancyapps/fancybox@3/dist/
+  fancybox: https://unpkg.com/@fancyapps/fancybox@3/dist/
   
-  nprogress: https://jsd.compc.cc/npm/nprogress@0/
+  nprogress: https://unpkg.com/nprogress@0/
   
-  mathjax: https://jsd.compc.cc/npm/mathjax@3/es5/
+  mathjax: https://unpkg.com/mathjax@3/es5/
   
-  katex: https://jsd.compc.cc/npm/katex@0.15.3/dist/contrib/
+  katex: https://unpkg.com/katex@0.15.3/dist/contrib/
   
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
   
-  clipboard: https://jsd.compc.cc/npm/clipboard@2/dist/
+  clipboard: https://unpkg.com/clipboard@2/dist/
   
-  mermaid: https://jsd.compc.cc/npm/mermaid@8/dist/
+  mermaid: https://unpkg.com/mermaid@8/dist/
   
-  valine: https://jsd.compc.cc/npm/valine@1/dist/
+  valine: https://unpkg.com/valine@1/dist/
   
-  waline: https://jsd.compc.cc/npm/@waline/client@1/dist/
+  waline: https://unpkg.com/@waline/client@1/dist/
   
-  gitalk: https://jsd.compc.cc/npm/gitalk@1/dist/
+  gitalk: https://unpkg.com/gitalk@1/dist/
   
-  disqusjs: https://jsd.compc.cc/npm/disqusjs@1/dist/
+  disqusjs: https://unpkg.com/disqusjs@1/dist/
   
-  twikoo: https://jsd.compc.cc/npm/twikoo@1/dist/
+  twikoo: https://unpkg.com/twikoo@1/dist/
   
-  hint: https://jsd.compc.cc/npm/hint.css@2/
+  hint: https://unpkg.com/hint.css@2/
