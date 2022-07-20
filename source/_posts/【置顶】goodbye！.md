@@ -1,7 +1,8 @@
 ---
+sticky: 1
 title: 【置顶】Goodbye！
-date: 2200-12-25 00:00:00
-updated: 2200-12-25 00:00:00
+date: 2022-07-19 10:32:28
+updated: 2022-07-19 10:32:28
 categories:
   - 其他
 comments: true
