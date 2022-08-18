@@ -1,5 +1,5 @@
 ---
-sticky: -3
+sticky: ""
 title: CF1033E Hidden Bipartite Graph
 date: 2022-08-18 18:59:08
 updated: 2022-08-18 18:59:08
