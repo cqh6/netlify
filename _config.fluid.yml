@@ -635,7 +635,7 @@ post:
     specific: false
 
     # Options: mathjax | katex
-    engine: mathjax
+    engine: katex
 
   # 流程图，基于 mermaid-js，具体请见：https://hexo.fluid-dev.com/docs/guide/#mermaid-流程图
   # Flow chart, based on mermaid-js, see: https://hexo.fluid-dev.com/docs/en/guide/#mermaid
@@ -1001,7 +1001,7 @@ static_prefix:
 
   mermaid: https://lib.baomitu.com/mermaid/8.14.0/
 
-  valine: https://lib.baomitu.com/valine/1.4.17/
+  valine: https://lib.baomitu.com/valine/1.4.18/
 
   waline: https://lib.baomitu.com/waline/2.5.1/
 
