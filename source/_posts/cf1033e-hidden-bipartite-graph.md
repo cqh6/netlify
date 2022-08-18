@@ -14,9 +14,11 @@ comments: true
 > 
 > [CF Link](https://codeforces.com/problemset/problem/1033/E)
 > 
-> 题意：交互题，给定一个 $n(1\le n\le 600)$ 个点连通图，你每次可以询问一个点集 $s$，系统会返回在 $s$ 中有两个端点的边的数量。你最多可以询问 $20000$ 次。你需要判断这个图是不是一个二分图。
+> 交互题，给定一个 $n(1\le n\le 600)$ 个点连通图，你每次可以询问一个点集 $s$，系统会返回在 $s$ 中有两个端点的边的数量。你最多可以询问 $20000$ 次。你需要判断这个图是不是一个二分图。
 > 
 > 若是二分图，则输出其中一部分点数和所有点的编号。
+> 
+> 若不是二分图，则输出任意一个奇环上所有点的编号。
 
 先考虑构造任意一棵生成树，原图是二分图当且仅当奇数层内部之间没有边，偶数层内部之间也没有边。
 
@@ -42,10 +44,10 @@ comments: true
 using namespace std;
 
 int read() {
-	int x=0, f=0; char c=getchar();
-	while (!isdigit(c)) f|=c=='-', c=getchar();
-	while (isdigit(c)) x=(x<<3)+(x<<1)+(c^48), c=getchar();
-	return f ? -x : x;
+    int x=0, f=0; char c=getchar();
+    while (!isdigit(c)) f|=c=='-', c=getchar();
+    while (isdigit(c)) x=(x<<3)+(x<<1)+(c^48), c=getchar();
+    return f ? -x : x;
 }
 
 const int N=605;
@@ -53,79 +55,79 @@ int n, fa[N], dep[N], vis[N];
 queue<int> q;
 
 int ask(vector<int> v) {
-	int n=v.size();
-	if (n<=1) return 0;
-	printf("? %d\n", n);
-	for (int i=0; i<n; i++) printf("%d ", v[i]);
-	puts(""), fflush(stdout);
-	return read();
+    int n=v.size();
+    if (n<=1) return 0;
+    printf("? %d\n", n);
+    for (int i=0; i<n; i++) printf("%d ", v[i]);
+    puts(""), fflush(stdout);
+    return read();
 }
 
 void add(int u, int f) {
-	if (vis[u]) return;
-	vis[u]=1, dep[u]=dep[f]+1;
-	fa[u]=f, q.push(u);
+    if (vis[u]) return;
+    vis[u]=1, dep[u]=dep[f]+1;
+    fa[u]=f, q.push(u);
 }
 
 void calc(int u, vector<int> v) {
-	if (!v.size()) return;
-	int m1=ask(v), m2;
-	v.push_back(u), m2=ask(v);
-	if (m1==m2) return;
-	v.pop_back();
-	if (v.size()==1) return add(v.front(), u);
-	int mid=v.size()/2;
-	vector<int> v1, v2;
-	for (int i=0; i<mid; i++) v1.push_back(v[i]);
-	for (int i=mid; i<v.size();  i++) v2.push_back(v[i]);
-	calc(u, v1), calc(u, v2);
+    if (!v.size()) return;
+    int m1=ask(v), m2;
+    v.push_back(u), m2=ask(v);
+    if (m1==m2) return;
+    v.pop_back();
+    if (v.size()==1) return add(v.front(), u);
+    int mid=v.size()/2;
+    vector<int> v1, v2;
+    for (int i=0; i<mid; i++) v1.push_back(v[i]);
+    for (int i=mid; i<v.size();  i++) v2.push_back(v[i]);
+    calc(u, v1), calc(u, v2);
 }
 
 void find(int u, int v) {
-	int lca=0, a=u, b=v;
-	while (a!=b) {
-		if (dep[a]<dep[b]) swap(a, b);
-		a=fa[a];
-	}
-	lca=a;
-	vector<int> ans;
-	for (int i=u; i; i=fa[i]) {
-		ans.push_back(i);
-		if (i==lca) break;
-	}
-	reverse(ans.begin(), ans.end());
-	for (int i=v; i!=lca; i=fa[i]) ans.push_back(i);
-	printf("N %d\n", ans.size());
-	for (int v:ans) printf("%d ", v);
-	exit(0);
+    int lca=0, a=u, b=v;
+    while (a!=b) {
+        if (dep[a]<dep[b]) swap(a, b);
+        a=fa[a];
+    }
+    lca=a;
+    vector<int> ans;
+    for (int i=u; i; i=fa[i]) {
+        ans.push_back(i);
+        if (i==lca) break;
+    }
+    reverse(ans.begin(), ans.end());
+    for (int i=v; i!=lca; i=fa[i]) ans.push_back(i);
+    printf("N %d\n", ans.size());
+    for (int v:ans) printf("%d ", v);
+    exit(0);
 }
 
 void solve(vector<int> v) {
-	if (v.size()<=1) return;
-	if (v.size()==2) return find(v.front(), v.back());
-	while (1) {
-		random_shuffle(v.begin(), v.end());
-		int mid=(v.size()+1)/2;
-		vector<int> v1=v; v1.resize(mid);
-		if (ask(v1)) return solve(v1);
-	}
+    if (v.size()<=1) return;
+    if (v.size()==2) return find(v.front(), v.back());
+    while (1) {
+        random_shuffle(v.begin(), v.end());
+        int mid=(v.size()+1)/2;
+        vector<int> v1=v; v1.resize(mid);
+        if (ask(v1)) return solve(v1);
+    }
 }
 
 int main() {
-	n=read(), add(1, 0);
-	while (!q.empty()) {
-		int u=q.front(); q.pop();
-		vector<int> v;
-		for (int i=1; i<=n; i++)
-			if (!vis[i]) v.push_back(i);
-		calc(u, v);
-	}
-	vector<int> vec[2];
-	for (int i=1; i<=n; i++) vec[dep[i]&1].push_back(i);
-	if (ask(vec[0])) solve(vec[0]);
-	else if (ask(vec[1])) solve(vec[1]);
-	printf("Y %d\n", vec[0].size());
-	for (int v:vec[0]) printf("%d ", v);
-	return 0;
+    n=read(), add(1, 0);
+    while (!q.empty()) {
+        int u=q.front(); q.pop();
+        vector<int> v;
+        for (int i=1; i<=n; i++)
+            if (!vis[i]) v.push_back(i);
+        calc(u, v);
+    }
+    vector<int> vec[2];
+    for (int i=1; i<=n; i++) vec[dep[i]&1].push_back(i);
+    if (ask(vec[0])) solve(vec[0]);
+    else if (ask(vec[1])) solve(vec[1]);
+    printf("Y %d\n", vec[0].size());
+    for (int v:vec[0]) printf("%d ", v);
+    return 0;
 }
 ```
