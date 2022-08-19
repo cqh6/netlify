@@ -15,8 +15,7 @@ comments: true
 令
 
 $$
-L_{i}=\max \left\{j \mid j<i \wedge w_{j} \leq w_{i}\right\}\\
-R_{i}=\min \left\{j \mid i<j \wedge w_{j} \leq w_{i}\right\}
+L_{i}=\\max \\{{j \\mid j<i \\wedge w_{j} \\leq w_{i}}\\}\\R_{i}=\\min \\{{j \\mid i<j \\wedge w_{j} \\leq w_{i}}\\}
 $$
 
 则答案一定为 $(L_i,i),(i,R_i)$ 中的一个
