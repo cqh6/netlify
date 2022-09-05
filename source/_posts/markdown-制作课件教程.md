@@ -41,12 +41,22 @@ int main() {
 				print(); st=title.size()?(title+"\n"):"", tot=0;
 				goto nxt;
 			}
-			else if (s.size()>2 && s[0]=='`' && s[1]=='`' && s[2]=='`') {
+			if (s.size()>2 && s[0]=='`' && s[1]=='`' && s[2]=='`') {
 				st=s+"\n", getline(cin, s);
 				while (!(s.size()>2 && s[0]=='`' && s[1]=='`' && s[2]=='`')) st+=s+"\n", getline(cin, s);
 				st+=s+"\n";
 				print(), st=title.size()?(title+"\n"):"", tot=0;
 				continue;
+			}
+			if (s.size()>3 && (s[0]=='!' && s[1]=='[' && s[2]==']' && s[3]=='(' || s[0]=='<' && s[1]=='i' && s[2]=='m' && s[3]=='g')) {
+				if (tot>=3) {
+					print();
+					if (title.size()) st=title+"\n";
+					else st="";
+					tot=4;
+					continue;
+				}
+				else tot+=3;
 			}
 			st+=s+"\n";
 			if (s.size()) {
@@ -75,3 +85,4 @@ int main() {
 - 行数多（$\ge 6$）自动换新页（并一直保留标题）
 - 代码后换新页
 - 引用块后换新页
+- 钦定一个图片占 4 行，防止占太多
