@@ -86,3 +86,69 @@ int main() {
 - 代码后换新页
 - 引用块后换新页
 - 钦定一个图片占 4 行，防止占太多
+
+如果你不想让引用段自动换页，可以改成下面这样：
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string s, st, title;
+int tot=0;
+
+void print() {
+	puts(st.c_str());
+	puts("<div STYLE=\"page-break-after: always;\"></div>\n");
+}
+
+int main() {
+	freopen("in.md", "r", stdin);
+	freopen("out.md", "w", stdout);
+	while (getline(cin, s)) {
+		nxt:;
+		if (s[0]=='#') st=s+"\n", title=s, tot=0;
+		else {
+			if (s[0]=='>') {
+				while ((s[0]=='>' || !s.size())) st+=s+"\n", getline(cin, s), tot+=s.size()>2;
+				print();
+				if (tot>=6) {
+					st=title.size()?(title+"\n"):"";
+					tot=0;
+					goto nxt;
+				}
+			}
+			if (s.size()>2 && s[0]=='`' && s[1]=='`' && s[2]=='`') {
+				st=s+"\n", getline(cin, s);
+				while (!(s.size()>2 && s[0]=='`' && s[1]=='`' && s[2]=='`')) st+=s+"\n", getline(cin, s);
+				st+=s+"\n";
+				print(), st=title.size()?(title+"\n"):"", tot=0;
+				continue;
+			}
+			if (s.size()>3 && (s[0]=='!' && s[1]=='[' && s[2]==']' && s[3]=='(' || s[0]=='<' && s[1]=='i' && s[2]=='m' && s[3]=='g')) {
+				if (tot>=3) {
+					print();
+					if (title.size()) st=title+"\n";
+					else st="";
+					tot=4;
+					continue;
+				}
+				else tot+=3;
+			}
+			st+=s+"\n";
+			if (s.size()) {
+				tot++;
+				if (tot>=6) {
+					print();
+					if (title.size()) st=title+"\n";
+					else st="";
+					tot=0;
+					continue;
+				}
+			}
+		}
+		if (s.size()) print();
+	}
+	return 0;
+}
+```
