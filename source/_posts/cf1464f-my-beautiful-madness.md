@@ -1,5 +1,5 @@
 ---
-sticky: -2
+sticky: ""
 title: CF1464F My Beautiful Madness
 date: 2022-10-06 11:01:06
 updated: 2022-10-06 11:01:06
