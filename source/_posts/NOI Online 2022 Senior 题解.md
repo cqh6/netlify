@@ -400,16 +400,11 @@ signed main() {
 我们考虑当 $n=3$ 时求 $\max$ ，就相当于二维数点，求 $\min$ 类似。
 
 当 $n=4$ 时，答案等于
+
 $$
-\begin{equation}
-\begin{aligned}
-ANS&=\max(a,b,c,d)+\min(a,b,c,d)\\
-&=\max(a,b,c)+\max(a,b,d)+\max(a,c,d)+\max(b,c,d)\\
-&-\max(a,b)-\max(a,c)-\max(a,d)-\max(b,c)-\max(b,d)-\max(c,d)\\
-&+a+b+c+d
-\end{aligned}
-\end{equation}
+\\begin{equation}\\begin{aligned}ANS&=\\max(a,b,c,d)+\\min(a,b,c,d)\\\\&=\\max(a,b,c)+\\max(a,b,d)+\\max(a,c,d)+\\max(b,c,d)\\\\&-\\max(a,b)-\\max(a,c)-\\max(a,d)-\\max(b,c)-\\max(b,d)-\\max(c,d)\\\\&+a+b+c+d\\end{aligned}\\end{equation}
 $$
+
 就不用求那么麻烦的三维偏序了，只要求二位偏序即可。
 
 代码简单了好多。
