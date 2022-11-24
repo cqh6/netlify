@@ -7,10 +7,6 @@ comments: true
 
 我真是个废物。
 
-![](https://api.solstice23.top/countdown/?date=1655222400&fontSize=50&color=00BCD4&left=%E8%B7%9D%E7%A6%BB%E4%B8%AD%E8%80%83%E8%BF%98%E6%9C%89&strokeWidth=2&strokeColor=03A9F4&font=2)
-
-
-
 ## Contact
 
 - QQ：[1274727127](tencent://message/?uin=1274727127)
