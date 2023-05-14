@@ -3,7 +3,7 @@ navbar:
   ground_glass:
     enable: true
 index:
-  banner_img: /images/uploads/5.jpg
+  banner_img: /images/uploads/1.jpg
   banner_img_height: 100
   slogan:
     text: 所以生命啊，它璀璨如歌
@@ -23,7 +23,7 @@ tag:
 about:
   banner_img: /images/uploads/7.jpg
   banner_img_height: 80
-  avatar: /images/uploads/touxiang.jpg
+  avatar: /images/uploads/touxiang2.jpg
   name: cqh's blog
   intro: 废物一个
 links:
